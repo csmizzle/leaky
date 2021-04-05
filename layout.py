@@ -44,10 +44,10 @@ layout = dbc.Container([
                 ])
             ]),
             dbc.Col(
+
                 dcc.Graph(
                     figure=draw_bubble_map(loc_data),
-                )
-            )
+                ))
 
         ]),
     ], body=True),
@@ -72,12 +72,14 @@ layout = dbc.Container([
                     sort_action="native",
                     sort_mode="multi",
                     style_table={
-                        'height': 400,
+                        'height': 'auto',
+                        'overflowX': 'auto'
                     },
                     style_data={
                         'width': '150px', 'minWidth': '150px', 'maxWidth': '150px',
                         'overflow': 'hidden',
                         'textOverflow': 'ellipsis',
+
                     },
                     page_size=10
                 )
@@ -96,7 +98,8 @@ layout = dbc.Container([
                     sort_action="native",
                     sort_mode="multi",
                     style_table={
-                        'height': 400,
+                        'height': 'auto',
+                        'overflowX': 'auto'
                     },
                     style_data={
                         'width': '150px', 'minWidth': '150px', 'maxWidth': '150px',

@@ -35,6 +35,12 @@ def draw_bubble_map(data):
             y=0.99,
             xanchor="left",
             x=0.01
+        ),
+        autosize=True,
+        margin=dict(
+            b=0,
+            r=0,
+            autoexpand=True
         )
     )
 
