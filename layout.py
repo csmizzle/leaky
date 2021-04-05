@@ -40,7 +40,7 @@ layout = dbc.Container([
                              " in early January 2021 detailing a break of approximately 553 million Facebook accounts"
                              " with similar fields that were extracted in the Instagram vulnerability."
                              "Now, the previously payment protected"
-                             " dataset is available for free. The accompanying data revolves only around the 32 millions US accounts.")
+                             " dataset is available for free. The accompanying data revolves only around the 32 million US accounts.")
                 ])
             ]),
             dbc.Col(
