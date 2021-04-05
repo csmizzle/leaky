@@ -24,8 +24,8 @@ layout = dbc.Container([
                              " date of birth, first name, last name, location (city, state), email address, employer, and gender"
                              " with varying degrees of completion based on the corresponding Facebook page."),
                     dcc.Markdown("In September 2019, [Motherboard](https://www.vice.com/en/article/xgz7bd/facebook-phone-numbers-bot-telegram) reported"
-                             " on a Telegram bot takes a phone number and looks up a Facebook profile associated with that"
-                             " phone number. This was discovered as a vulnerability by Facebook, fixing the vulnerability by"
+                             " on a Telegram bot that takes a phone number as input and looks the corresponding Facebook profile."
+                             " This was discovered as a vulnerability by Facebook, fixing the vulnerability by"
                              " early Aug 2019. The data's legitimacy was also confirmed by Motherboard in the same report."),
                     dcc.Markdown("While the exact source of the vulnerability cannot be determined, it is likely tied"
                              " to a [similar vulnerability](https://www.forbes.com/sites/zakdoffman/2019/09/12/new-instagram-hack-exclusive-facebook-confirms-user-accounts-and-phone-numbers-at-risk/?sh=7b2f5b482200),"
