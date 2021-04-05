@@ -34,7 +34,8 @@ def draw_bubble_map(data):
             yanchor="top",
             y=0.99,
             xanchor="left",
-            x=0.01
+            x=0.01,
+            bgcolor='rgba(255,255,255,0.5)'
         ),
         autosize=True,
         margin=dict(
