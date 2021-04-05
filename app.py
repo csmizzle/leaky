@@ -11,6 +11,7 @@ app = dash.Dash(
 
 app.layout = dbc.Container(layout, fluid=True)
 app.title = "Facebook Leaked Dash"
+server = app.server
 
 if __name__ == "__main__":
     app.run_server()
