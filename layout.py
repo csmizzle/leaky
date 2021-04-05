@@ -37,10 +37,10 @@ layout = dbc.Container([
                              " had been no serious data leakage due to the vulnerability."),
                     dcc.Markdown("Alon Gal, a respected figure head in the Twitter Security Community,"
                              " posted [screen shots](https://twitter.com/UnderTheBreach/status/1349671417625931778?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1349671417625931778%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.theverge.com%2F2021%2F1%2F25%2F22249571%2Ffacebook-phone-number-hack-telegram-bot)"
-                             " in early January 2021 detailing a break of approximately 553 million Facebook account"
+                             " in early January 2021 detailing a break of approximately 553 million Facebook accounts"
                              " with similar fields that were extracted in the Instagram vulnerability."
                              "Now, the previously payment protected"
-                             " dataset is available for free. The following analysis revolves only around the 32 millions US accounts.")
+                             " dataset is available for free. The accompanying data revolves only around the 32 millions US accounts.")
                 ])
             ]),
             dbc.Col(
