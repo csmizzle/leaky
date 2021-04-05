@@ -69,6 +69,8 @@ layout = dbc.Container([
                     ],
                     data=email_count.to_dict('records'),
                     filter_action='native',
+                    sort_action="native",
+                    sort_mode="multi",
                     style_table={
                         'height': 400,
                     },
@@ -91,6 +93,8 @@ layout = dbc.Container([
                     ],
                     data=state_email.to_dict('records'),
                     filter_action='native',
+                    sort_action="native",
+                    sort_mode="multi",
                     style_table={
                         'height': 400,
                     },
