@@ -18,8 +18,8 @@ layout = dbc.Container([
                 dbc.CardBody([
                     html.H4("Background"),
                     html.Hr(),
-                    dcc.Markdown("Early on April 3rd, 2021 approximately 553 million Facebook accounts were leaked on raidforms[.]com to download to"
-                             " any user with an account on the site. Accounts from around the globe are effected in this breach,"
+                    dcc.Markdown("Early on April 3rd, 2021 approximately 553 million Facebook accounts were leaked online."
+                             " Accounts from around the globe are effected in this breach,"
                              " along with 32 million from the United States. The fields within this dataset include phone number,"
                              " date of birth, first name, last name, location (city, state), email address, employer, and gender"
                              " with varying degrees of completion based on the corresponding Facebook page."),
