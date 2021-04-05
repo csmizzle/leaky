@@ -20,7 +20,7 @@ layout = dbc.Container([
                     html.Hr(),
                     dcc.Markdown("Early on April 3rd, 2021 approximately 553 million Facebook accounts were leaked online."
                              " Accounts from around the globe are effected in this breach,"
-                             " along with 32 million from the United States. The fields within this dataset include phone number,"
+                             " along with 32 million from the United States. The dataset includes phone number,"
                              " date of birth, first name, last name, location (city, state), email address, employer, and gender"
                              " with varying degrees of completion based on the corresponding Facebook page."),
                     dcc.Markdown("In September 2019, [Motherboard](https://www.vice.com/en/article/xgz7bd/facebook-phone-numbers-bot-telegram) reported"
@@ -37,10 +37,10 @@ layout = dbc.Container([
                              " had been no serious data leakage due to the vulnerability."),
                     dcc.Markdown("Alon Gal, a respected figure head in the Twitter Security Community,"
                              " posted [screen shots](https://twitter.com/UnderTheBreach/status/1349671417625931778?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1349671417625931778%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.theverge.com%2F2021%2F1%2F25%2F22249571%2Ffacebook-phone-number-hack-telegram-bot)"
-                             " in early January 2021 detailing a break of approximately 553 million Facebook accounts"
+                             " in early January 2021 detailing a breach of approximately 553 million Facebook accounts"
                              " with similar fields that were extracted in the Instagram vulnerability."
-                             "Now, the previously payment protected"
-                             " dataset is available for free. The accompanying data revolves only around the 32 million US accounts.")
+                             "Now, the previously 553 million payment protected"
+                             " records are available for free. The accompanying data revolves only around the 32 million US accounts.")
                 ])
             ]),
             dbc.Col(
